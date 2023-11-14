@@ -1,0 +1,35 @@
+{
+  "name": "Basic Node.js",
+  "build": { "dockerfile": "Dockerfile" },
+"remoteUser": "node",
+"features": {
+	"ghcr.io/devcontainers/features/git:1": {}
+},
+"extensions": [
+  "johnpapa.angular-essentials",
+  "Angular.ng-template",
+  "ms-python.autopep8",
+  "ms-vscode.cpptools",
+  "ms-dotnettools.csharp",
+  "genieai.chatgpt-vscode",
+  "streetsidesoftware.code-spell-checker",
+  "pranaygp.vscode-css-peek",
+  "batisteo.vscode-django",
+  "dbaeumer.vscode-eslint",
+  "mhutchie.git-graph",
+  "donjayamanne.githistory",
+  "eamodio.gitlens",
+  "VisualStudioExptTeam.vscodeintellicode",
+  "VisualStudioExptTeam.intellicode-api-usage-examples",
+  "eriklynd.json-tools",
+  "DavidAnson.vscode-markdownlint",
+  "ionutvmi.path-autocomplete",
+  "christian-kohler.path-intellisense",
+  "esbenp.prettier-vscode",
+  "ms-python.vscode-pylance",
+  "ms-python.pylint",
+  "ms-python.python",
+  "adpyke.vscode-sql-formatter",
+  "deerawan.vscode-faker"
+]
+}
